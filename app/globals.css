@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .masked-video {
+    mask-image: url(#video-mask); /* Use the ID of the mask you defined */
+  }
+}
