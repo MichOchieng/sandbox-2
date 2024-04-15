@@ -7,9 +7,13 @@
 }
 
 @layer utilities {
-  
+  .test {
+    @apply border border-red-500
+  }
 }
 
 @layer components {
-
+  .imageContainer {
+    @apply w-[15rem] h-[20rem] relative 
+  }
 }
