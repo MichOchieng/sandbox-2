@@ -11,7 +11,7 @@ const SlidePlaceholder = () => {
 
   return (
     <div className="">
-      <p className="">Fade-in Placeholder</p>
+      <p className="">Slide-out Placeholder</p>
       <div
         style={{ backgroundColor: "#ECF0F1" }}
         className={`imageContainer overflow-hidden`}
