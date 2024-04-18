@@ -3,17 +3,26 @@
 @tailwind utilities;
 
 @layer base {
-
 }
 
 @layer utilities {
   .test {
-    @apply border border-red-500
+    @apply border border-red-500;
   }
 }
 
 @layer components {
   .imageContainer {
-    @apply w-[15rem] h-[20rem] relative 
+    @apply w-[15rem] h-[20rem] relative;
+  }
+
+  .gradientParagraph {
+    @apply flex leading-[1] text-[60px] p-[40px] max-w-[1280px] text-white flex-wrap;
+    .word {
+      @apply relative mr-3 mt-3;
+      .shadow {
+        @apply absolute opacity-20;
+      }
+    }
   }
 }
