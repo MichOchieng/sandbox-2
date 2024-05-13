@@ -4,7 +4,9 @@ import DefaultBlur from "@/components/Placeholders/DefaultBlur";
 import DynamicBlur from "@/components/Placeholders/DynamicBlur";
 import DynamicColourPlaceholder from "@/components/Placeholders/DynamicColourPlaceholder";
 import FadeInPlaceholder from "@/components/Placeholders/FadeInPlaceholder";
+import Pixelated from "@/components/Placeholders/Pixelated";
 import SlidePlaceholder from "@/components/Placeholders/SlidePlaceholder";
+import SlideUp from "@/components/buttons/SlideUp";
 
 export default function Placeholders() {
 
@@ -17,6 +19,8 @@ export default function Placeholders() {
         <DynamicColourPlaceholder/>
         <FadeInPlaceholder/>
         <SlidePlaceholder/>
+        <Pixelated/>
+        <SlideUp text="Button"/>
       </main>
     );
 }

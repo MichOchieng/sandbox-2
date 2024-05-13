@@ -9,6 +9,10 @@
   .test {
     @apply border border-red-500;
   }
+
+  .smoothed {
+    @apply transition-all duration-300 ease-in-out
+  }
 }
 
 @layer components {
